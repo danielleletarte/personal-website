@@ -4,7 +4,8 @@
   "description": "personal website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/danielleletarte/website/issues"
   },
-  "homepage": "https://github.com/danielleletarte/website#readme"
+  "homepage": "https://github.com/danielleletarte/website#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
 }
