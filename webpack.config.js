@@ -4,6 +4,7 @@ module.exports = {
     path: __dirname + '/dist',
     filename: 'bundle.min.js'
 },
+  watch: true,
   module: {
     loaders: [
       {
