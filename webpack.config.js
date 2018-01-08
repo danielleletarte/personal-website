@@ -18,7 +18,12 @@ module.exports = {
         loaders: [
           'url-loader'
         ]
-      }
+    },
+    {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        options: { presets: ['env'] }
+    }
     ]
   }
 }
